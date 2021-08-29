@@ -254,8 +254,8 @@ namespace OpenTKApp1
         {
             string errorMessage;
 
-            string vertexShaderSource = File.ReadAllText("..\\vertex.glsl");
-            string fragmentShaderSource = File.ReadAllText("..\\fragment.glsl");
+            string vertexShaderSource = File.ReadAllText("..\\Shaders\\vertex.glsl");
+            string fragmentShaderSource = File.ReadAllText("..\\Shaders\\fragment.glsl");
 
             GLShader vertexShader = new GLShader(ShaderType.VertexShader, vertexShaderSource);
 
